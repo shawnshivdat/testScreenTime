@@ -1,0 +1,1139 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		86381C3E29C91C4B00040BEE /* CustomBlockListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86381C3D29C91C4B00040BEE /* CustomBlockListView.swift */; };
+		86381C3F29C91C4B00040BEE /* CustomBlockListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86381C3D29C91C4B00040BEE /* CustomBlockListView.swift */; };
+		864D2D6B29C932E7000F0BD6 /* AddCustomURLView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 864D2D6A29C932E7000F0BD6 /* AddCustomURLView.swift */; };
+		864D2D6C29C932E7000F0BD6 /* AddCustomURLView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 864D2D6A29C932E7000F0BD6 /* AddCustomURLView.swift */; };
+		864D2D7429C9ECAD000F0BD6 /* blockerList.json in Resources */ = {isa = PBXBuildFile; fileRef = 864D2D7329C9ECAD000F0BD6 /* blockerList.json */; };
+		864D2D7629C9ECAD000F0BD6 /* ContentBlockerRequestHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 864D2D7529C9ECAD000F0BD6 /* ContentBlockerRequestHandler.swift */; };
+		864D2D7A29C9ECAE000F0BD6 /* ContentBlocker.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 864D2D7129C9ECAD000F0BD6 /* ContentBlocker.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		86D2CDB429C1631C00290AC1 /* Glorious_SurferApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86D2CDB329C1631C00290AC1 /* Glorious_SurferApp.swift */; };
+		86D2CDB629C1631C00290AC1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86D2CDB529C1631C00290AC1 /* ContentView.swift */; };
+		86D2CDB829C1631D00290AC1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86D2CDB729C1631D00290AC1 /* Assets.xcassets */; };
+		86D2CDBC29C1631D00290AC1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86D2CDBB29C1631D00290AC1 /* Preview Assets.xcassets */; };
+		86D2CDC629C1631D00290AC1 /* Glorious_SurferTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86D2CDC529C1631D00290AC1 /* Glorious_SurferTests.swift */; };
+		86D2CDD029C1631D00290AC1 /* Glorious_SurferUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86D2CDCF29C1631D00290AC1 /* Glorious_SurferUITests.swift */; };
+		86D2CDD229C1631D00290AC1 /* Glorious_SurferUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86D2CDD129C1631D00290AC1 /* Glorious_SurferUITestsLaunchTests.swift */; };
+		86D2CDDF29C1F78D00290AC1 /* SetUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86D2CDDE29C1F78D00290AC1 /* SetUp.swift */; };
+		86D2CDE129C1F99A00290AC1 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86D2CDE029C1F99A00290AC1 /* Model.swift */; };
+		86D2CDE229C1F99A00290AC1 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86D2CDE029C1F99A00290AC1 /* Model.swift */; };
+		86D2CDEA29C1FF3000290AC1 /* DeviceActivity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86D2CDE929C1FF3000290AC1 /* DeviceActivity.framework */; };
+		86D2CDED29C1FF3000290AC1 /* DeviceActivityMonitorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86D2CDEC29C1FF3000290AC1 /* DeviceActivityMonitorExtension.swift */; };
+		86D2CDF229C1FF3000290AC1 /* DeviceActivityMonitorExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 86D2CDE729C1FF3000290AC1 /* DeviceActivityMonitorExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		86D2CDF829C1FF4C00290AC1 /* ActivityMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86D2CDF729C1FF4C00290AC1 /* ActivityMonitor.swift */; };
+		86D2CDF929C1FF4C00290AC1 /* ActivityMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86D2CDF729C1FF4C00290AC1 /* ActivityMonitor.swift */; };
+		86D2CDFB29C200E200290AC1 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86D2CDE029C1F99A00290AC1 /* Model.swift */; };
+		86D2CDFD29C2025700290AC1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86D2CDFC29C2025700290AC1 /* AppDelegate.swift */; };
+		86D2CDFE29C2025700290AC1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86D2CDFC29C2025700290AC1 /* AppDelegate.swift */; };
+		86D2CDFF29C2025700290AC1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86D2CDFC29C2025700290AC1 /* AppDelegate.swift */; };
+		86D2CE0129C21C9400290AC1 /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86D2CE0029C21C9400290AC1 /* SettingView.swift */; };
+		86D2CE0229C21C9400290AC1 /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86D2CE0029C21C9400290AC1 /* SettingView.swift */; };
+		86D2CE2029C24EE700290AC1 /* ManagedSettings.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86D2CE1F29C24EE700290AC1 /* ManagedSettings.framework */; };
+		86D2CE2229C24EE700290AC1 /* ManagedSettingsUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86D2CE2129C24EE700290AC1 /* ManagedSettingsUI.framework */; };
+		86D2CE2529C24EE700290AC1 /* ShieldConfigurationExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86D2CE2429C24EE700290AC1 /* ShieldConfigurationExtension.swift */; };
+		86D2CE2A29C24EE700290AC1 /* GloriousCustomShield.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 86D2CE1E29C24EE700290AC1 /* GloriousCustomShield.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		86D2CE2F29C24F7700290AC1 /* ShieldAsset.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86D2CE2E29C24F7700290AC1 /* ShieldAsset.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		864D2D7829C9ECAE000F0BD6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 86D2CDA829C1631C00290AC1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 864D2D7029C9ECAD000F0BD6;
+			remoteInfo = ContentBlocker;
+		};
+		86D2CDC229C1631D00290AC1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 86D2CDA829C1631C00290AC1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 86D2CDAF29C1631C00290AC1;
+			remoteInfo = "Glorious Surfer";
+		};
+		86D2CDCC29C1631D00290AC1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 86D2CDA829C1631C00290AC1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 86D2CDAF29C1631C00290AC1;
+			remoteInfo = "Glorious Surfer";
+		};
+		86D2CDF029C1FF3000290AC1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 86D2CDA829C1631C00290AC1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 86D2CDE629C1FF3000290AC1;
+			remoteInfo = AcitivityMonitor;
+		};
+		86D2CE2829C24EE700290AC1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 86D2CDA829C1631C00290AC1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 86D2CE1D29C24EE700290AC1;
+			remoteInfo = GloriousCustomShield;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		86D2CDF629C1FF3000290AC1 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				86D2CE2A29C24EE700290AC1 /* GloriousCustomShield.appex in Embed Foundation Extensions */,
+				864D2D7A29C9ECAE000F0BD6 /* ContentBlocker.appex in Embed Foundation Extensions */,
+				86D2CDF229C1FF3000290AC1 /* DeviceActivityMonitorExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		86381C3D29C91C4B00040BEE /* CustomBlockListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomBlockListView.swift; sourceTree = "<group>"; };
+		864D2D6A29C932E7000F0BD6 /* AddCustomURLView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCustomURLView.swift; sourceTree = "<group>"; };
+		864D2D7129C9ECAD000F0BD6 /* ContentBlocker.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = ContentBlocker.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		864D2D7329C9ECAD000F0BD6 /* blockerList.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = blockerList.json; sourceTree = "<group>"; };
+		864D2D7529C9ECAD000F0BD6 /* ContentBlockerRequestHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentBlockerRequestHandler.swift; sourceTree = "<group>"; };
+		864D2D7729C9ECAE000F0BD6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		86D2CDB029C1631C00290AC1 /* Glorious Surfer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Glorious Surfer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		86D2CDB329C1631C00290AC1 /* Glorious_SurferApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Glorious_SurferApp.swift; sourceTree = "<group>"; };
+		86D2CDB529C1631C00290AC1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		86D2CDB729C1631D00290AC1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		86D2CDB929C1631D00290AC1 /* Glorious_Surfer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Glorious_Surfer.entitlements; sourceTree = "<group>"; };
+		86D2CDBB29C1631D00290AC1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		86D2CDC129C1631D00290AC1 /* Glorious SurferTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Glorious SurferTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		86D2CDC529C1631D00290AC1 /* Glorious_SurferTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Glorious_SurferTests.swift; sourceTree = "<group>"; };
+		86D2CDCB29C1631D00290AC1 /* Glorious SurferUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Glorious SurferUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		86D2CDCF29C1631D00290AC1 /* Glorious_SurferUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Glorious_SurferUITests.swift; sourceTree = "<group>"; };
+		86D2CDD129C1631D00290AC1 /* Glorious_SurferUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Glorious_SurferUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		86D2CDDE29C1F78D00290AC1 /* SetUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetUp.swift; sourceTree = "<group>"; };
+		86D2CDE029C1F99A00290AC1 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		86D2CDE729C1FF3000290AC1 /* DeviceActivityMonitorExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = DeviceActivityMonitorExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		86D2CDE929C1FF3000290AC1 /* DeviceActivity.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DeviceActivity.framework; path = System/Library/Frameworks/DeviceActivity.framework; sourceTree = SDKROOT; };
+		86D2CDEC29C1FF3000290AC1 /* DeviceActivityMonitorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceActivityMonitorExtension.swift; sourceTree = "<group>"; };
+		86D2CDEE29C1FF3000290AC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		86D2CDEF29C1FF3000290AC1 /* AcitivityMonitor.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AcitivityMonitor.entitlements; sourceTree = "<group>"; };
+		86D2CDF729C1FF4C00290AC1 /* ActivityMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityMonitor.swift; sourceTree = "<group>"; };
+		86D2CDFC29C2025700290AC1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		86D2CE0029C21C9400290AC1 /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
+		86D2CE1E29C24EE700290AC1 /* GloriousCustomShield.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = GloriousCustomShield.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		86D2CE1F29C24EE700290AC1 /* ManagedSettings.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ManagedSettings.framework; path = System/Library/Frameworks/ManagedSettings.framework; sourceTree = SDKROOT; };
+		86D2CE2129C24EE700290AC1 /* ManagedSettingsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ManagedSettingsUI.framework; path = Library/Frameworks/ManagedSettingsUI.framework; sourceTree = DEVELOPER_DIR; };
+		86D2CE2429C24EE700290AC1 /* ShieldConfigurationExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShieldConfigurationExtension.swift; sourceTree = "<group>"; };
+		86D2CE2629C24EE700290AC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		86D2CE2729C24EE700290AC1 /* GloriousCustomShield.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GloriousCustomShield.entitlements; sourceTree = "<group>"; };
+		86D2CE2E29C24F7700290AC1 /* ShieldAsset.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = ShieldAsset.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		864D2D6E29C9ECAD000F0BD6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86D2CDAD29C1631C00290AC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86D2CDBE29C1631D00290AC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86D2CDC829C1631D00290AC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86D2CDE429C1FF3000290AC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86D2CDEA29C1FF3000290AC1 /* DeviceActivity.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86D2CE1B29C24EE700290AC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86D2CE2029C24EE700290AC1 /* ManagedSettings.framework in Frameworks */,
+				86D2CE2229C24EE700290AC1 /* ManagedSettingsUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		864D2D7229C9ECAD000F0BD6 /* ContentBlocker */ = {
+			isa = PBXGroup;
+			children = (
+				864D2D7329C9ECAD000F0BD6 /* blockerList.json */,
+				864D2D7529C9ECAD000F0BD6 /* ContentBlockerRequestHandler.swift */,
+				864D2D7729C9ECAE000F0BD6 /* Info.plist */,
+			);
+			path = ContentBlocker;
+			sourceTree = "<group>";
+		};
+		864D2D7E29C9FE7B000F0BD6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				86D2CDB529C1631C00290AC1 /* ContentView.swift */,
+				86381C3D29C91C4B00040BEE /* CustomBlockListView.swift */,
+				864D2D6A29C932E7000F0BD6 /* AddCustomURLView.swift */,
+				86D2CE0029C21C9400290AC1 /* SettingView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		86D2CDA729C1631C00290AC1 = {
+			isa = PBXGroup;
+			children = (
+				86D2CDB229C1631C00290AC1 /* Glorious Surfer */,
+				86D2CDC429C1631D00290AC1 /* Glorious SurferTests */,
+				86D2CDCE29C1631D00290AC1 /* Glorious SurferUITests */,
+				86D2CDEB29C1FF3000290AC1 /* AcitivityMonitor */,
+				86D2CE2329C24EE700290AC1 /* GloriousCustomShield */,
+				864D2D7229C9ECAD000F0BD6 /* ContentBlocker */,
+				86D2CDE829C1FF3000290AC1 /* Frameworks */,
+				86D2CDB129C1631C00290AC1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		86D2CDB129C1631C00290AC1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				86D2CDB029C1631C00290AC1 /* Glorious Surfer.app */,
+				86D2CDC129C1631D00290AC1 /* Glorious SurferTests.xctest */,
+				86D2CDCB29C1631D00290AC1 /* Glorious SurferUITests.xctest */,
+				86D2CDE729C1FF3000290AC1 /* DeviceActivityMonitorExtension.appex */,
+				86D2CE1E29C24EE700290AC1 /* GloriousCustomShield.appex */,
+				864D2D7129C9ECAD000F0BD6 /* ContentBlocker.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		86D2CDB229C1631C00290AC1 /* Glorious Surfer */ = {
+			isa = PBXGroup;
+			children = (
+				86D2CDB329C1631C00290AC1 /* Glorious_SurferApp.swift */,
+				86D2CDDE29C1F78D00290AC1 /* SetUp.swift */,
+				86D2CDE029C1F99A00290AC1 /* Model.swift */,
+				86D2CDFC29C2025700290AC1 /* AppDelegate.swift */,
+				864D2D7E29C9FE7B000F0BD6 /* View */,
+				86D2CDB729C1631D00290AC1 /* Assets.xcassets */,
+				86D2CDB929C1631D00290AC1 /* Glorious_Surfer.entitlements */,
+				86D2CDBA29C1631D00290AC1 /* Preview Content */,
+			);
+			path = "Glorious Surfer";
+			sourceTree = "<group>";
+		};
+		86D2CDBA29C1631D00290AC1 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				86D2CDBB29C1631D00290AC1 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		86D2CDC429C1631D00290AC1 /* Glorious SurferTests */ = {
+			isa = PBXGroup;
+			children = (
+				86D2CDC529C1631D00290AC1 /* Glorious_SurferTests.swift */,
+			);
+			path = "Glorious SurferTests";
+			sourceTree = "<group>";
+		};
+		86D2CDCE29C1631D00290AC1 /* Glorious SurferUITests */ = {
+			isa = PBXGroup;
+			children = (
+				86D2CDCF29C1631D00290AC1 /* Glorious_SurferUITests.swift */,
+				86D2CDD129C1631D00290AC1 /* Glorious_SurferUITestsLaunchTests.swift */,
+			);
+			path = "Glorious SurferUITests";
+			sourceTree = "<group>";
+		};
+		86D2CDE829C1FF3000290AC1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				86D2CDE929C1FF3000290AC1 /* DeviceActivity.framework */,
+				86D2CE1F29C24EE700290AC1 /* ManagedSettings.framework */,
+				86D2CE2129C24EE700290AC1 /* ManagedSettingsUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		86D2CDEB29C1FF3000290AC1 /* AcitivityMonitor */ = {
+			isa = PBXGroup;
+			children = (
+				86D2CDEC29C1FF3000290AC1 /* DeviceActivityMonitorExtension.swift */,
+				86D2CDF729C1FF4C00290AC1 /* ActivityMonitor.swift */,
+				86D2CDEE29C1FF3000290AC1 /* Info.plist */,
+				86D2CDEF29C1FF3000290AC1 /* AcitivityMonitor.entitlements */,
+			);
+			path = AcitivityMonitor;
+			sourceTree = "<group>";
+		};
+		86D2CE2329C24EE700290AC1 /* GloriousCustomShield */ = {
+			isa = PBXGroup;
+			children = (
+				86D2CE2429C24EE700290AC1 /* ShieldConfigurationExtension.swift */,
+				86D2CE2E29C24F7700290AC1 /* ShieldAsset.xcassets */,
+				86D2CE2629C24EE700290AC1 /* Info.plist */,
+				86D2CE2729C24EE700290AC1 /* GloriousCustomShield.entitlements */,
+			);
+			path = GloriousCustomShield;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		864D2D7029C9ECAD000F0BD6 /* ContentBlocker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 864D2D7B29C9ECAE000F0BD6 /* Build configuration list for PBXNativeTarget "ContentBlocker" */;
+			buildPhases = (
+				864D2D6D29C9ECAD000F0BD6 /* Sources */,
+				864D2D6E29C9ECAD000F0BD6 /* Frameworks */,
+				864D2D6F29C9ECAD000F0BD6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ContentBlocker;
+			productName = ContentBlocker;
+			productReference = 864D2D7129C9ECAD000F0BD6 /* ContentBlocker.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		86D2CDAF29C1631C00290AC1 /* Glorious Surfer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86D2CDD529C1631D00290AC1 /* Build configuration list for PBXNativeTarget "Glorious Surfer" */;
+			buildPhases = (
+				86D2CDAC29C1631C00290AC1 /* Sources */,
+				86D2CDAD29C1631C00290AC1 /* Frameworks */,
+				86D2CDAE29C1631C00290AC1 /* Resources */,
+				86D2CDF629C1FF3000290AC1 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				86D2CDF129C1FF3000290AC1 /* PBXTargetDependency */,
+				86D2CE2929C24EE700290AC1 /* PBXTargetDependency */,
+				864D2D7929C9ECAE000F0BD6 /* PBXTargetDependency */,
+			);
+			name = "Glorious Surfer";
+			productName = "Glorious Surfer";
+			productReference = 86D2CDB029C1631C00290AC1 /* Glorious Surfer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		86D2CDC029C1631D00290AC1 /* Glorious SurferTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86D2CDD829C1631D00290AC1 /* Build configuration list for PBXNativeTarget "Glorious SurferTests" */;
+			buildPhases = (
+				86D2CDBD29C1631D00290AC1 /* Sources */,
+				86D2CDBE29C1631D00290AC1 /* Frameworks */,
+				86D2CDBF29C1631D00290AC1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				86D2CDC329C1631D00290AC1 /* PBXTargetDependency */,
+			);
+			name = "Glorious SurferTests";
+			productName = "Glorious SurferTests";
+			productReference = 86D2CDC129C1631D00290AC1 /* Glorious SurferTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		86D2CDCA29C1631D00290AC1 /* Glorious SurferUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86D2CDDB29C1631D00290AC1 /* Build configuration list for PBXNativeTarget "Glorious SurferUITests" */;
+			buildPhases = (
+				86D2CDC729C1631D00290AC1 /* Sources */,
+				86D2CDC829C1631D00290AC1 /* Frameworks */,
+				86D2CDC929C1631D00290AC1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				86D2CDCD29C1631D00290AC1 /* PBXTargetDependency */,
+			);
+			name = "Glorious SurferUITests";
+			productName = "Glorious SurferUITests";
+			productReference = 86D2CDCB29C1631D00290AC1 /* Glorious SurferUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		86D2CDE629C1FF3000290AC1 /* DeviceActivityMonitorExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86D2CDF329C1FF3000290AC1 /* Build configuration list for PBXNativeTarget "DeviceActivityMonitorExtension" */;
+			buildPhases = (
+				86D2CDE329C1FF3000290AC1 /* Sources */,
+				86D2CDE429C1FF3000290AC1 /* Frameworks */,
+				86D2CDE529C1FF3000290AC1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DeviceActivityMonitorExtension;
+			productName = AcitivityMonitor;
+			productReference = 86D2CDE729C1FF3000290AC1 /* DeviceActivityMonitorExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		86D2CE1D29C24EE700290AC1 /* GloriousCustomShield */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86D2CE2B29C24EE700290AC1 /* Build configuration list for PBXNativeTarget "GloriousCustomShield" */;
+			buildPhases = (
+				86D2CE1A29C24EE700290AC1 /* Sources */,
+				86D2CE1B29C24EE700290AC1 /* Frameworks */,
+				86D2CE1C29C24EE700290AC1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GloriousCustomShield;
+			productName = GloriousCustomShield;
+			productReference = 86D2CE1E29C24EE700290AC1 /* GloriousCustomShield.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		86D2CDA829C1631C00290AC1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					864D2D7029C9ECAD000F0BD6 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					86D2CDAF29C1631C00290AC1 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					86D2CDC029C1631D00290AC1 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 86D2CDAF29C1631C00290AC1;
+					};
+					86D2CDCA29C1631D00290AC1 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 86D2CDAF29C1631C00290AC1;
+					};
+					86D2CDE629C1FF3000290AC1 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					86D2CE1D29C24EE700290AC1 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 86D2CDAB29C1631C00290AC1 /* Build configuration list for PBXProject "Glorious Surfer" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 86D2CDA729C1631C00290AC1;
+			productRefGroup = 86D2CDB129C1631C00290AC1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				86D2CDAF29C1631C00290AC1 /* Glorious Surfer */,
+				86D2CDC029C1631D00290AC1 /* Glorious SurferTests */,
+				86D2CDCA29C1631D00290AC1 /* Glorious SurferUITests */,
+				86D2CDE629C1FF3000290AC1 /* DeviceActivityMonitorExtension */,
+				86D2CE1D29C24EE700290AC1 /* GloriousCustomShield */,
+				864D2D7029C9ECAD000F0BD6 /* ContentBlocker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		864D2D6F29C9ECAD000F0BD6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				864D2D7429C9ECAD000F0BD6 /* blockerList.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86D2CDAE29C1631C00290AC1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86D2CDBC29C1631D00290AC1 /* Preview Assets.xcassets in Resources */,
+				86D2CDB829C1631D00290AC1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86D2CDBF29C1631D00290AC1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86D2CDC929C1631D00290AC1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86D2CDE529C1FF3000290AC1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86D2CE1C29C24EE700290AC1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86D2CE2F29C24F7700290AC1 /* ShieldAsset.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		864D2D6D29C9ECAD000F0BD6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				864D2D7629C9ECAD000F0BD6 /* ContentBlockerRequestHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86D2CDAC29C1631C00290AC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				864D2D6B29C932E7000F0BD6 /* AddCustomURLView.swift in Sources */,
+				86D2CDFD29C2025700290AC1 /* AppDelegate.swift in Sources */,
+				86381C3E29C91C4B00040BEE /* CustomBlockListView.swift in Sources */,
+				86D2CDF829C1FF4C00290AC1 /* ActivityMonitor.swift in Sources */,
+				86D2CDB629C1631C00290AC1 /* ContentView.swift in Sources */,
+				86D2CE0129C21C9400290AC1 /* SettingView.swift in Sources */,
+				86D2CDB429C1631C00290AC1 /* Glorious_SurferApp.swift in Sources */,
+				86D2CDDF29C1F78D00290AC1 /* SetUp.swift in Sources */,
+				86D2CDE129C1F99A00290AC1 /* Model.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86D2CDBD29C1631D00290AC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86D2CDFE29C2025700290AC1 /* AppDelegate.swift in Sources */,
+				86D2CDC629C1631D00290AC1 /* Glorious_SurferTests.swift in Sources */,
+				86D2CDE229C1F99A00290AC1 /* Model.swift in Sources */,
+				86D2CDF929C1FF4C00290AC1 /* ActivityMonitor.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86D2CDC729C1631D00290AC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86D2CE0229C21C9400290AC1 /* SettingView.swift in Sources */,
+				864D2D6C29C932E7000F0BD6 /* AddCustomURLView.swift in Sources */,
+				86381C3F29C91C4B00040BEE /* CustomBlockListView.swift in Sources */,
+				86D2CDD029C1631D00290AC1 /* Glorious_SurferUITests.swift in Sources */,
+				86D2CDD229C1631D00290AC1 /* Glorious_SurferUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86D2CDE329C1FF3000290AC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86D2CDFF29C2025700290AC1 /* AppDelegate.swift in Sources */,
+				86D2CDFB29C200E200290AC1 /* Model.swift in Sources */,
+				86D2CDED29C1FF3000290AC1 /* DeviceActivityMonitorExtension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86D2CE1A29C24EE700290AC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86D2CE2529C24EE700290AC1 /* ShieldConfigurationExtension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		864D2D7929C9ECAE000F0BD6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 864D2D7029C9ECAD000F0BD6 /* ContentBlocker */;
+			targetProxy = 864D2D7829C9ECAE000F0BD6 /* PBXContainerItemProxy */;
+		};
+		86D2CDC329C1631D00290AC1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 86D2CDAF29C1631C00290AC1 /* Glorious Surfer */;
+			targetProxy = 86D2CDC229C1631D00290AC1 /* PBXContainerItemProxy */;
+		};
+		86D2CDCD29C1631D00290AC1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 86D2CDAF29C1631C00290AC1 /* Glorious Surfer */;
+			targetProxy = 86D2CDCC29C1631D00290AC1 /* PBXContainerItemProxy */;
+		};
+		86D2CDF129C1FF3000290AC1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 86D2CDE629C1FF3000290AC1 /* DeviceActivityMonitorExtension */;
+			targetProxy = 86D2CDF029C1FF3000290AC1 /* PBXContainerItemProxy */;
+		};
+		86D2CE2929C24EE700290AC1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 86D2CE1D29C24EE700290AC1 /* GloriousCustomShield */;
+			targetProxy = 86D2CE2829C24EE700290AC1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		864D2D7C29C9ECAE000F0BD6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 76SW2P5T5M;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ContentBlocker/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = ContentBlocker;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.somnapp.testScreenTime.Glorious-Surfer.ContentBlocker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		864D2D7D29C9ECAE000F0BD6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 76SW2P5T5M;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ContentBlocker/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = ContentBlocker;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.somnapp.testScreenTime.Glorious-Surfer.ContentBlocker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		86D2CDD329C1631D00290AC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		86D2CDD429C1631D00290AC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		86D2CDD629C1631D00290AC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Glorious Surfer/Glorious_Surfer.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Glorious Surfer/Preview Content\"";
+				DEVELOPMENT_TEAM = 76SW2P5T5M;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.somnapp.testScreenTime.Glorious-Surfer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		86D2CDD729C1631D00290AC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Glorious Surfer/Glorious_Surfer.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Glorious Surfer/Preview Content\"";
+				DEVELOPMENT_TEAM = 76SW2P5T5M;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.somnapp.testScreenTime.Glorious-Surfer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		86D2CDD929C1631D00290AC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 76SW2P5T5M;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.somnapp.testScreenTime.Glorious-SurferTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Glorious Surfer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Glorious Surfer";
+			};
+			name = Debug;
+		};
+		86D2CDDA29C1631D00290AC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 76SW2P5T5M;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.somnapp.testScreenTime.Glorious-SurferTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Glorious Surfer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Glorious Surfer";
+			};
+			name = Release;
+		};
+		86D2CDDC29C1631D00290AC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 76SW2P5T5M;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.somnapp.testScreenTime.Glorious-SurferUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Glorious Surfer";
+			};
+			name = Debug;
+		};
+		86D2CDDD29C1631D00290AC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 76SW2P5T5M;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.somnapp.testScreenTime.Glorious-SurferUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Glorious Surfer";
+			};
+			name = Release;
+		};
+		86D2CDF429C1FF3000290AC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = AcitivityMonitor/AcitivityMonitor.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 76SW2P5T5M;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AcitivityMonitor/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = AcitivityMonitor;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.somnapp.testScreenTime.Glorious-Surfer.AcitivityMonitor";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Debug;
+		};
+		86D2CDF529C1FF3000290AC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = AcitivityMonitor/AcitivityMonitor.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 76SW2P5T5M;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AcitivityMonitor/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = AcitivityMonitor;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.somnapp.testScreenTime.Glorious-Surfer.AcitivityMonitor";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		86D2CE2C29C24EE700290AC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = GloriousCustomShield/GloriousCustomShield.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 76SW2P5T5M;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GloriousCustomShield/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = GloriousCustomShield;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.somnapp.testScreenTime.Glorious-Surfer.GloriousCustomShield";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		86D2CE2D29C24EE700290AC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = GloriousCustomShield/GloriousCustomShield.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 76SW2P5T5M;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GloriousCustomShield/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = GloriousCustomShield;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.somnapp.testScreenTime.Glorious-Surfer.GloriousCustomShield";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		864D2D7B29C9ECAE000F0BD6 /* Build configuration list for PBXNativeTarget "ContentBlocker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				864D2D7C29C9ECAE000F0BD6 /* Debug */,
+				864D2D7D29C9ECAE000F0BD6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		86D2CDAB29C1631C00290AC1 /* Build configuration list for PBXProject "Glorious Surfer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86D2CDD329C1631D00290AC1 /* Debug */,
+				86D2CDD429C1631D00290AC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		86D2CDD529C1631D00290AC1 /* Build configuration list for PBXNativeTarget "Glorious Surfer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86D2CDD629C1631D00290AC1 /* Debug */,
+				86D2CDD729C1631D00290AC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		86D2CDD829C1631D00290AC1 /* Build configuration list for PBXNativeTarget "Glorious SurferTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86D2CDD929C1631D00290AC1 /* Debug */,
+				86D2CDDA29C1631D00290AC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		86D2CDDB29C1631D00290AC1 /* Build configuration list for PBXNativeTarget "Glorious SurferUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86D2CDDC29C1631D00290AC1 /* Debug */,
+				86D2CDDD29C1631D00290AC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		86D2CDF329C1FF3000290AC1 /* Build configuration list for PBXNativeTarget "DeviceActivityMonitorExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86D2CDF429C1FF3000290AC1 /* Debug */,
+				86D2CDF529C1FF3000290AC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		86D2CE2B29C24EE700290AC1 /* Build configuration list for PBXNativeTarget "GloriousCustomShield" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86D2CE2C29C24EE700290AC1 /* Debug */,
+				86D2CE2D29C24EE700290AC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 86D2CDA829C1631C00290AC1 /* Project object */;
+}
